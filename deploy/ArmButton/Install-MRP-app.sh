@@ -13,12 +13,20 @@ else
 fi
 
 # Install packages
+echo "Installing packages"
+echo "Running apt-get update"
 apt-get update
+echo "Running apt-get install software-properties-common python-software-properties"
 apt-get install software-properties-common python-software-properties
+echo "Running apt-get apt-get install openjdk-8-jdk -y"
 apt-get install openjdk-8-jdk -y
+echo "Running apt-get apt-get install openjdk-8-jre -y"
 apt-get install openjdk-8-jre -y
+echo "Running apt-get install mongodb -y"
 apt-get install mongodb -y
+echo "Running apt-get install tomcat7 -y"
 apt-get install tomcat7 -y
+echo "Running apt-get install wget -y"
 apt-get install wget -y
 
 # Set Java environment variables
