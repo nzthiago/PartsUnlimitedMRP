@@ -3,20 +3,19 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "globaluniquename"
-      //ensure all lowercase letters, numbers, no special characters
+      "value": "thiagopumrp"
     },
     "location": {
       "value": "West US"
     },
     "adminUsername": {
-      "value": "adminuser"
+      "value": "thiagopumrp"
     },
     "adminPassword": {
       "value": "Passw0rd!"
     },
     "dnsNameForPublicIP": {
-      "value": "globaluniquename"
+      "value": "thiagopumrp"
     }
   }
 }
